@@ -3,6 +3,108 @@
   Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
 */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* Adjust as needed */
+  /* background-color: beige; */
+}
+
+.content {
+  background-color: rgb(164, 222, 240);
+  /* background-color: aqua; */
+  /* margin: 12px; */
+  padding: 32px 0px;
+}
+
+.header {
+  width: full;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: center;
+  padding: 12px 0px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.heading {
+  width: full;
+  /* background-color: beige; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0px;
+  text-align: center;
+}
+
+.decorative {
+  color: rgb(53, 103, 230);
+  font-family: cursive;
+}
+
 .menu {
-  color: blue;
+  width: full;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.item {
+  min-width: 250px;
+  max-width: 400px;
+  /* width: 100%; */
+  background-color: beige;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-start;
+  padding: 20px 8px 12px 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-content{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-title {
+  font-weight: bold;
+  /* background-color: aqua; */
+}
+
+.item-img {
+  width: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.item-options {
+  width: full;
+  display: flex;
+  gap: 12px;
+  align-items: start;
+  justify-content: center;
+  /* background-color:coral; */
+}
+
+.addBtn {
+  padding: 4px 8px;
+  border-radius: 12px;
+  background-color: rgb(53, 103, 230);
+  color: white;
+  width: fit-content;
+}
+
+.price {
+  margin-top: 6px;
 }
