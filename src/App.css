@@ -63,7 +63,6 @@
   background-color: beige;
   border-radius: 12px;
   display: flex;
-  flex-direction: column;
   gap: 12px;
   justify-content: flex-start;
   padding: 20px 8px 12px 12px;
@@ -84,7 +83,7 @@
 }
 
 .item-img {
-  width: 200px;
+  width: 100px;
   height: auto;
   background-color: white;
   border-radius: 12px;
